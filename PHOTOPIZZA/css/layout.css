@@ -1,0 +1,180 @@
+@charset "utf-8";
+body {
+	background-color: #343e48;
+	color: #fff;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+}
+h1 {
+	padding-top: 60px;
+}
+iframe {
+	display: inline-block;
+	border-left: 1px solid rgba(256, 256, 256, 0.5);
+}
+a:link {
+	color: #fff;
+}
+a:active {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+}
+a:visited {
+	color: #fff;	
+}
+.header {
+	height: 50px;
+	background-color: #e6e6e6;
+}
+.megavisor_logo {
+	display: inline-block;
+	background-color: #4ac1ff;
+	background-image: url('../images/megavisor_logo.png');
+	background-repeat: no-repeat;
+	line-height: 50px;
+	width: 185px;
+	border-right: 1px solid #343d48;
+}
+a.megavisor_logo {
+	text-decoration: none;
+}
+.megavisor_logo:hover {
+	background-color: #83d5ff;
+}
+.photopizza_logo {
+	display: inline-block;
+	background-image: url('../images/photopizza_logo.png');
+	width: 200px;
+	line-height: 50px;
+	color: #343d48;
+	padding-left: 12px;
+	font-weight: bold;
+}
+.page_menu {
+	position: fixed;
+	top: 60px;
+	width: 184px;
+	height: 80%;
+	text-align: right;
+	border-right: 1px solid rgba(256, 256, 256, 0.5);
+	padding-top: 20px;
+}
+.page_menu_item {
+	display: inline-block;
+	background-color: #e6e6e6;
+	color: #343d48;
+	line-height: 40px;
+	padding-left: 42px;
+	padding-right: 12px;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-top: 1px;
+	border-right: 5px solid rgba(0, 0, 0, 0.2);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+.page_menu_item:hover {
+	background-color: #fff;
+	border-right: 5px solid rgba(0, 0, 0, 0);
+}
+#pmi_photopizza {
+	background-image: url('../images/photopizza_icon.png');
+}
+#pmi_manual {
+	background-image: url('../images/manual_icon.png');
+}
+#pmi_parts {
+	background-image: url('../images/parts_icon.png');
+}
+#pmi_files {
+	background-image: url('../images/files_icon.png');
+}
+#pmi_comments {
+	background-image: url('../images/comments_icon.png');
+}
+.page_menu_share {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin-top: 1px;
+	cursor: pointer;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: rgba(0, 0, 0, 0.2);
+	background-repeat: no-repeat;
+	background-color: #6c7785;
+}
+.page_menu_share:hover {
+	border-right-color: rgba(0, 0, 0, 0);
+}
+#pms_facebook {
+	background-image: url('../images/facebook.png');
+}
+#pms_facebook:hover {
+	background-color: #44619d;
+}
+#pms_gp {
+	background-image: url('../images/gp.png');
+}
+#pms_gp:hover {
+	background-color: #dd4b39;
+}
+#pms_twitter {
+	background-image: url('../images/twitter.png');
+}
+#pms_tmblr {
+	background-image: url('../images/tmblr.png');
+}
+#pms_tmblr:hover {
+	background-color: #35465c;
+}
+#pms_twitter:hover {
+	background-color: #00acee;
+}
+#pms_vk {
+	background-image: url('../images/vk.png');
+}
+#pms_vk:hover {
+	background-color: #5c82ab;
+}
+#pms_github {
+	background-color: #f9f9f9;
+	background-image: url('../images/github.png');
+}
+#pms_github:hover {
+	background-color: #fff;
+}
+.content {
+	padding-left: 240px;
+	padding-right: 30px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	max-width: 900px;
+}
+.comments {
+	padding-left: 56px;
+	padding-right: 30px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	background-color: #e6e6e6;
+	color: #343d48;
+	border-left-width: 184px;
+	border-left-style: solid;
+	border-left-color: rgba(0, 0, 0, 0.4);
+	min-height: 900px;
+} 
+div.comments a:active {
+  color: #000;
+}
+div.comments a:link {
+  color: #000;
+}
+div.comments a:hover {
+  color: #000;
+}
+div.comments a:visited {
+  color: #000;
+}

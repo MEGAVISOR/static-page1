@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+    Global css for tags for any browser version
+*/
+
+html, html#js, html#nojs {
+	/* css */
+}
+
+body {
+	/* css */
+}
+
+a {
+	/* css */
+}
+a:hover {
+	/* css */
+}

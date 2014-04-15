@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+background-color: #343d48;
+color: #fff;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 1.1em;
+}
+h1 {
+padding-top: 60px;
+}
+a:active {
+color: #fff;
+}
+a:hover {
+color: #fff;
+}
+a:visited {
+color: #fff;	
+}
+.page_menu {
+position: fixed;
+top: 80px;
+width: 199px;
+height: 75%;
+text-align: right;
+border-right: 1px solid rgba(256, 256, 256, 0.5);
+padding-top: 20px;
+}
+.page_menu_item {
+display: inline-block;
+background-color: #e6e6e6;
+color: #343d48;
+line-height: 40px;
+padding-left: 42px;
+padding-right: 12px;
+cursor: pointer;
+white-space: nowrap;
+margin-top: 1px;
+border-right: 5px solid rgba(0, 0, 0, 0.2);
+background-repeat: no-repeat;
+}
+.page_menu_item:hover {
+background-color: #fff;
+border-right: 5px solid rgba(0, 0, 0, 0);
+}
+#pmi_photopizza {
+background-image: url('../images/photopizza_icon.png');
+}
+#pmi_manual {
+background-image: url('../images/manual_icon.png');
+}
+#pmi_parts {
+background-image: url('../images/parts_icon.png');
+}
+#pmi_files {
+background-image: url('../images/files_icon.png');
+}
+.page_menu_share {
+display: inline-block;
+height: 60px;
+width: 60px;
+margin-top: 1px;
+cursor: pointer;
+border-right-width: 5px;
+border-right-style: solid;
+border-right-color: rgba(0, 0, 0, 0.2);
+background-repeat: no-repeat;
+}
+.page_menu_share:hover {
+border-right-color: rgba(0, 0, 0, 0);
+}
+#pms_facebook {
+background-color: #44619d;
+background-image: url('../images/facebook.png');
+}
+#pms_gp {
+background-color: #dd4b39;
+background-image: url('../images/gp.png');
+}
+#pms_twitter {
+background-color: #00acee;
+background-image: url('../images/twitter.png');
+}
+#pms_vk {
+background-color: #5c82ab;
+background-image: url('../images/vk.png');
+}
+#pms_github {
+background-color: #f9f9f9;
+background-image: url('../images/github.png');
+}
+.content {
+padding-left: 240px;
+padding-right: 30px;
+padding-top: 0px;
+padding-bottom: 30px;
+max-width: 900px;
+}
