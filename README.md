@@ -1,6 +1,6 @@
 Static-Pages
 ============
 
-All sattic resourses of MEGAVISOR-project:
+All static resources of MEGAVISOR-project:
 
-#PHOTOPIZZA
+- PHOTOPIZZA
